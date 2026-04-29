@@ -1,5 +1,5 @@
 function obtenerDia(numero) {
-    const dias = ["Dominego", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado"];
+    const dias = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado"];
     return dias[numero];
 }
 
