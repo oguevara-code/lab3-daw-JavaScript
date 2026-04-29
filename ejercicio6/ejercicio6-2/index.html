@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6.2</title>
+</head>
+<body>
+    <h1>Ejercicio 6.2</h1>
+    <h2>Caluladora</h2>
+
+    <input type="number" id="numero1" placeholder="Ingrese el primer número">
+    <input type="number" id="numero2" placeholder="Ingrese el segundo número">
+
+    <select id="operador">
+        <option value="+">Suma</option>
+        <option value="-">Resta</option>
+        <option value="*">Multiplicación</option>
+        <option value="/">División</option>
+        <option value="&&">AND lógico</option>
+        <option value="||">OR lógico</option>
+        <option value="&">AND bits</option>
+        <option value="|">OR bits</option>
+    </select>
+
+    <button onclick="calcular()">Calcular</button>
+    
+    <p id="resultado"></p>
+
+
+    <script src="ejercicio6-2.js"></script>
+</body>
+</html>
